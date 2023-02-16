@@ -24,3 +24,8 @@ cd <directory of the project>
 flask --debug run
 ```
 
+
+### REFERENCES 
+
+*flask install*
+[https://flask.palletsprojects.com/en/2.2.x/installation/#create-an-environment](https://flask.palletsprojects.com/en/2.2.x/installation/#create-an-environment)
