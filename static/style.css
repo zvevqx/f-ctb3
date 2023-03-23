@@ -109,6 +109,36 @@ h2.wtitle{
     font-weight:lighter;
 }
 
+#gal {
+    width:100%;
+    display : grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
 
+#gal .simg{
+    height:150px;
+    overflow : hidden;
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
 
+#gal .simg img{
+    width:200%;
+}
+
+.fullSize{
+    grid-column: span 3;
+    height:auto!important;
+}
+
+.fullSize img{
+    width:100vw !important;
+    height:auto !important;
+}
 
